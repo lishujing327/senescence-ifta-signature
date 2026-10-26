@@ -157,7 +157,8 @@ for g, lab, c in [(0, f"Low signature (n={(main['grp']==0).sum()})", "#4a7c96"),
     ax.plot(years[-1], sv[-1], "o", color=c, ms=4)
 ax.set_xlabel("Years from biopsy")
 ax.set_ylabel("Graft survival probability")
-ax.set_title(f"a  Kaplan-Meier by median signature score\n(log-rank P = {lr_p:.3f})")
+lr_p_txt = "P < 0.001" if lr_p < 0.001 else f"P = {lr_p:.3f}"
+ax.set_title(f"a  Kaplan-Meier by median signature score\n(log-rank {lr_p_txt})")
 ax.legend(fontsize=9, loc="lower left"); ax.grid(alpha=0.3)
 ax.set_ylim(0, 1.02)
 

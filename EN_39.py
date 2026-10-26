@@ -126,7 +126,7 @@ ax.scatter(ard.log2FC, -np.log10(ard.FDR.clip(lower=1e-300)), s=46, facecolors="
            edgecolors="#1a1a1a", linewidths=1.1, label=f"ARDEG ({len(ard)})")
 ax.axhline(-np.log10(0.05), color="k", ls="--", lw=0.8)
 ax.axvline(0.5, color="k", ls="--", lw=0.8); ax.axvline(-0.5, color="k", ls="--", lw=0.8)
-ax.set_xlabel("log2 fold change (IF/TA+I vs Norm)")
+ax.set_xlabel("log2 fold change (i-IFTA vs Norm)")
 ax.set_ylabel("-log10(FDR)")
 ax.set_title(f"Differential expression in GSE22459 allograft biopsies\n(DEG ∩ ARG = {len(ardegs)} ageing-related genes)")
 ax.legend(fontsize=9, loc="upper left"); ax.grid(alpha=0.25)
@@ -153,7 +153,7 @@ ax.set_yticklabels(lab_arg, fontsize=8)
 color_bar = [("#4a7c96" if grp[c] == "Norm" else ("#b08a3e" if grp[c] == "IFTA" else "#c96a4a")) for c in matz.columns]
 for i, c in enumerate(color_bar):
     ax.axvline(i - 0.5, color=c, lw=2.2)
-ax.set_xticks([]); ax.set_xlabel("Samples (blue=Norm, gold=IF/TA, red=IF/TA+I)")
+ax.set_xticks([]); ax.set_xlabel("Samples (blue=Norm, gold=pure IF/TA, red=i-IFTA)")
 ax.set_title("Expression heatmap of ageing-related DEGs (ARDEGs)\n* = member of GenAge/CellAge gene sets", fontsize=11)
 fig.colorbar(im, ax=ax, shrink=0.6, label="z score")
 fig.tight_layout()

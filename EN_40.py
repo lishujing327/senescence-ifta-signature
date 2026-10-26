@@ -102,7 +102,7 @@ cols = ["#4a7c96", "#b08a3e", "#7c8f4a", "#8A5A44"]
 ax.bar(res.model, res.auc_mean, yerr=res.auc_sd, color=cols, alpha=0.85, capsize=4)
 for i, v in enumerate(res.auc_mean):
     ax.text(i, v + 0.02, f"{v:.3f}", ha="center", fontsize=10)
-ax.set_ylim(0.8, 1.02); ax.set_ylabel("AUC (10×5-fold CV)")
+ax.set_ylim(0.7, 1.02); ax.set_ylabel("AUC (10×5-fold CV)")
 ax.set_title("Diagnostic performance of four machine-learning models"); ax.grid(alpha=0.3, axis="y")
 ax.tick_params(axis="x", labelsize=9)
 
@@ -134,7 +134,7 @@ for i, (_, r) in enumerate(single.iterrows()):
     ax.plot(f, t, color=cmap(i + 2), lw=1.1, alpha=0.8, label=f"{r.gene} (AUC={r.cv_auc:.3f})")
 ax.plot([0, 1], [0, 1], "k--", lw=0.8)
 ax.set_xlabel("1 \u2212 specificity"); ax.set_ylabel("Sensitivity")
-ax.set_title("ROC of the senescence gene signature for IF/TA+I")
+ax.set_title("ROC of the senescence gene signature for i-IFTA")
 ax.legend(fontsize=8.5, loc="lower right"); ax.grid(alpha=0.3)
 fig.tight_layout()
 fig.savefig(f"{OUT}/EN_figureB6_ROC.png", dpi=150, bbox_inches="tight")
@@ -145,8 +145,9 @@ all_score = sig.predict_proba(expr.loc[HUB].T.values)[:, 1]
 S = pd.DataFrame({"score": all_score, "group": grp.values})
 fig, ax = plt.subplots(figsize=(7, 4.8))
 order = ["Norm", "IFTA", "IFTA+I"]
+disp = {"Norm": "Norm", "IFTA": "pure IF/TA", "IFTA+I": "i-IFTA"}
 bp = ax.boxplot([S.loc[S.group == g, "score"] for g in order],
-                tick_labels=[f"{g}\n(n={int((S.group==g).sum())})" for g in order],
+                tick_labels=[f"{disp[g]}\n(n={int((S.group==g).sum())})" for g in order],
                 patch_artist=True, widths=0.5)
 for patch, c in zip(bp["boxes"], ["#4a7c96", "#b08a3e", "#c96a4a"]):
     patch.set_facecolor(c); patch.set_alpha(0.75)
@@ -156,8 +157,10 @@ for i, g in enumerate(order):
 p_ni = stats.mannwhitneyu(S.loc[S.group == "Norm", "score"], S.loc[S.group == "IFTA+I", "score"]).pvalue
 p_nf = stats.mannwhitneyu(S.loc[S.group == "Norm", "score"], S.loc[S.group == "IFTA", "score"]).pvalue
 p_fi = stats.mannwhitneyu(S.loc[S.group == "IFTA", "score"], S.loc[S.group == "IFTA+I", "score"]).pvalue
-ax.set_title(f"Distribution of the 5-gene signature across all 65 biopsies\nNorm-IF/TA p={p_nf:.3f} | IF/TA-IF/TA+I p={p_fi:.3f} | Norm-IF/TA+I p={p_ni:.1e}")
-ax.set_ylabel("Predicted probability of IF/TA+I"); ax.grid(alpha=0.3, axis="y")
+def fmt_p(p):
+    return "P < 0.001" if p < 0.001 else f"P = {p:.3f}"
+ax.set_title(f"Distribution of the 5-gene signature across all 65 biopsies\nNorm vs pure IF/TA: {fmt_p(p_nf)} | pure IF/TA vs i-IFTA: {fmt_p(p_fi)} | Norm vs i-IFTA: {fmt_p(p_ni)}")
+ax.set_ylabel("Predicted probability of i-IFTA"); ax.grid(alpha=0.3, axis="y")
 fig.tight_layout()
 fig.savefig(f"{OUT}/EN_figureB7_signature_distribution.png", dpi=150, bbox_inches="tight")
 print("figureB7 saved")
