@@ -1,0 +1,3 @@
+﻿signature,genes,cv_auc_5fold,boot95_ci_low,boot95_ci_high,TP,FP,FN,TN,sensitivity_median_cut,specificity_median_cut
+5-gene signature,TLR10+RRM2+TOP2A+TLR2+GRPR,0.907,0.784,0.989,15,6,1,19,0.938,0.76
+4-gene signature (TLR10-free),RRM2+TOP2A+TLR2+GRPR,0.917,0.816,0.986,15,6,1,19,0.938,0.76

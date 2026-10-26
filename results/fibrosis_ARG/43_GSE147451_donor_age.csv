@@ -1,0 +1,7 @@
+﻿analysis,n,spearman_r_or_median_high,p,partial_r_batchadj,partial_p,kdpi_spearman_r,kdpi_p,note
+5-gene signature,192,0.01,0.8853339451293727,-0.199,0.0098624377254225,0.069,0.3429756371514988,"crude r=0.010 primary; batch-adjusted r=-0.199 not interpretable (batch vs score r=0.75, over-adjustment); actual 4-gene version (TLR10 probe absent in this dataset)"
+21-ARDEG score,192,0.136,0.0605393718567213,0.118,0.1282150922388377,0.178,0.0133427152037674,marginal trend; KDPI r=0.178 P=0.013
+5-gene signature | >=70y vs <70y,7 vs 185,0.786,0.0123861364509073,,,,,
+21-ARDEG score | >=70y vs <70y,7 vs 185,0.19,0.02952999873911,,,,,
+5-gene signature | >=75y vs <75y,0 vs 192,,,,,,,
+21-ARDEG score | >=75y vs <75y,0 vs 192,,,,,,,

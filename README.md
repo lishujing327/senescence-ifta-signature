@@ -1,7 +1,7 @@
 # A Senescence-Related Gene Signature for the Molecular Reclassification of Inflamed Tubular Atrophy in Kidney Allograft Biopsies
 
 Analysis code for the manuscript submitted to *Clinical Transplantation*
-(Original Report; manuscript "EN_v2"). Starting from a curated library of
+(Original Report; manuscript "EN_v4"). Starting from a curated library of
 1,043 ageing-related genes (GenAge + CellAge), the pipeline identifies
 ageing-related genes associated with inflammation in areas of tubular atrophy
 (i-IFTA) in kidney allograft protocol biopsies, constructs a 5-gene signature
@@ -25,6 +25,23 @@ the expression matrix is regenerated automatically by `EN_39.py` at the start
 of the pipeline. All code, locked result tables and figure sources are
 unchanged from v1.1.
 
+**v1.3** (2026-10-26, manuscript EN_v3): added the donor-side age-correlation
+analysis (GSE147451, script `EN_43_A6_donor_age.py`), the STARD supplementary
+items (bootstrap CI of the primary CV AUC, `EN_41_STARD_CI.py`; dataset flow
+diagram, `EN_42_STARD_flow.py`), and the new locked results
+(`43_GSE147451_donor_age.csv`, `41_EN_CV_AUC_bootstrap_CI.csv`) and figure
+sources (`EN_figureB16_STARD_flow.png`, `EN_figureB17_donor_age_GSE147451.png`).
+Locked numbers from the original pipeline are unchanged.
+
+**v1.4** (2026-10-26, manuscript EN_v4): added the single-nucleus SenMayo
+senescence analysis (`EN_44_A7_senmayo_sc.py`; manuscript Sec 2.13/3.14 and
+Supplementary Figures S10-S11) with locked results
+(`44_senmayo_by_celltype.csv`, `44_PT_senmayo_by_donor_age.csv`,
+`44_PT_senmayo_by_disease.csv`) and figure sources
+(`EN_figureB18_senmayo_celltype.png`, `EN_figureB19_PT_senmayo_age.png`).
+SenMayo reference: Saul et al., Nat Commun 2022;13:4827 (manuscript ref 31).
+Locked numbers from the original pipeline are unchanged.
+
 ## Repository layout
 
 ```
@@ -37,6 +54,10 @@ senescence-ifta-signature/
 ├── 46_GSE21374_signature_outcome_EN.py   Prognostic association with graft loss (GSE21374)
 ├── 47_prior_value_benchmark_EN.py        Benchmarking of the senescence prior (whole-genome top-k vs random null)
 ├── 48_classifier_overlap_EN.py           Overlap with five established transplant molecular classifiers
+├── EN_41_STARD_CI.py                 Bootstrap 95% CI of the primary 5-fold CV AUC (STARD item 24)
+├── EN_42_STARD_flow.py               Dataset/analysis flow diagram (STARD item 19)
+├── EN_43_A6_donor_age.py             Donor-side age correlation in GSE147451 (manuscript Sec 2.12/3.13)
+├── EN_44_A7_senmayo_sc.py            SenMayo senescence scoring in the kidney snRNA-seq atlas (manuscript Sec 2.13/3.14)
 ├── daimon_runtime.py                 Font-configuration shim (no-op outside the Kimi Work runtime)
 ├── geo_data/                         Series matrices and probe mapping (small inputs; see EXTERNAL_INPUTS.md)
 ├── results/fibrosis_ARG/             Locked intermediate results (CSV) and English figure sources (PNG)
@@ -66,6 +87,10 @@ python EN_42.py                          # External validation, Supplementary Fi
 python 46_GSE21374_signature_outcome_EN.py  # Prognostic analysis, Main Figure 4 source
 python 47_prior_value_benchmark_EN.py       # Prior benchmarking, Supplementary Figure S6
 python 48_classifier_overlap_EN.py          # Classifier orthogonality, Supplementary Figure S7, Table S4
+python EN_41_STARD_CI.py                 # Bootstrap 95% CI of the primary CV AUC (Supplementary, STARD item 24)
+python EN_42_STARD_flow.py               # Dataset flow diagram (Supplementary Figure S9, STARD item 19)
+python EN_43_A6_donor_age.py             # Donor-side age correlation, GSE147451 (Supplementary Figure S8)
+python EN_44_A7_senmayo_sc.py            # SenMayo senescence scoring in the kidney atlas (Supplementary Figures S10-S11)
 python results/fibrosis_ARG/49_figure_assembly_v2.py  # Assemble main/supplementary figures
 ```
 
@@ -84,6 +109,10 @@ Every manuscript number can be verified directly from the locked CSV files in
 | Prior vs whole-genome top-k AUC | 0.896 vs 0.772-0.822 | `47_prior_benchmark_summary.csv` |
 | Prior vs random 21-gene null | 100th percentile | `47_random_null_21genes.csv` |
 | Overlap with 5 established classifiers | 0 genes (all panels) | `48_classifier_overlap_summary.csv` |
+| Primary CV AUC, bootstrap 95% CI | 0.907 (0.784-0.989); 4-gene 0.918 (0.816-0.986) | `41_EN_CV_AUC_bootstrap_CI.csv` |
+| GSE147451 donor-age correlation (n = 192) | signature r = 0.010 (P = 0.885) | `43_GSE147451_donor_age.csv` |
+| Atlas SenMayo, healthy-donor PT vs age (n = 15) | r = 0.330 (P = 0.229) | `44_PT_senmayo_by_donor_age.csv` |
+| Atlas PT SenMayo, disease vs healthy | AKI P<0.001; CKD P=6.7e-30; deceased donor P=6.7e-14 | `44_PT_senmayo_by_disease.csv` |
 
 ## Notes and caveats
 

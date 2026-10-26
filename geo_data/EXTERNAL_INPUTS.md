@@ -1,6 +1,6 @@
 # External inputs (download required)
 
-Four input files are **not** included in this repository because of their size
+Six input files are **not** included in this repository because of their size
 (3–80 MB each; binary matrices do not belong in version control). All of them
 are freely available from public repositories. Download each file and place it
 in this directory (`geo_data/`) under the exact file name listed below; every
@@ -39,7 +39,6 @@ The small inputs that **are** included in this directory are:
 - Used by: `EN_42.py` (external validation cohort 2)
 
 ## 4. GSE21374 series matrix (GSE21374_series_matrix.txt.gz, ~80 MB)
-
 - Source: GEO accession [GSE21374](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE21374)
   (GPL96/97 platform; kidney transplant biopsies with graft outcome follow-up)
 - Download: `GSE21374_series_matrix.txt.gz` from **Download family**, keep the
@@ -47,7 +46,17 @@ The small inputs that **are** included in this directory are:
 - Used by: `46_GSE21374_signature_outcome_EN.py` (prognostic association with
   graft loss) and `47_prior_value_benchmark_EN.py`
 
-## 5. Human kidney single-nucleus atlas (02d5db96-d67e-45f2-b556-b6bd99753665.h5ad, ~1 GB)
+## 5. GSE147451 series matrix (GSE147451_matrix.txt.gz, ~12 MB)
+
+- Source: GEO accession [GSE147451](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147451)
+  (GPL571 platform; 192 pre-implantation deceased-donor kidney biopsies with
+  donor age, KDPI and batch annotations; Archer et al., Am J Transplant 2022)
+- Download: `GSE147451_series_matrix.txt.gz` from **Download family**, rename
+  to `GSE147451_matrix.txt.gz`, place in `geo_data/`
+- Used by: `EN_43_A6_donor_age.py` (donor-side age correlation; the signature
+  has no TLR10 probe on this platform, so the four-gene version is used)
+
+## 6. Human kidney single-nucleus atlas (02d5db96-d67e-45f2-b556-b6bd99753665.h5ad, ~1 GB)
 
 - Source: CZ CELLxGENE Discover — the *Human kidney* single-nucleus RNA-seq
   reference atlas (search "Human kidney" on
@@ -57,8 +66,10 @@ The small inputs that **are** included in this directory are:
   download identifier, as referenced in `EN_41.py`) and place it in
   `geo_data/`. Use the same atlas version as in the manuscript so that cell
   type labels match.
-- Used by: `EN_41.py` only (single-nucleus localization of the 21 ARDEGs and
-  immune deconvolution of the signature). All other scripts run without it.
+- Used by: `EN_41.py` (single-nucleus localization of the 21 ARDEGs and
+  immune deconvolution of the signature) and `EN_44_A7_senmayo_sc.py`
+  (SenMayo senescence scoring by cell type, donor age and disease state).
+  All other scripts run without it.
 
 ## Note
 

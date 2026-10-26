@@ -1,0 +1,8 @@
+﻿disease_cat,n,senmayo_mean,senmayo_sd
+AKI,19475,0.002283034,0.13127582
+CKD,32452,-0.05301859,0.11302908
+Deceased_donor,566,-0.031625807,0.11505646
+Diabetes_mellitus_resilient,1773,-0.101754196,0.08374316
+Healthy_reference_tissue,13774,-0.06778112,0.09854306
+Healthy_stone_donor,5665,-0.046360232,0.13714217
+Tumor_nephrectomy,13894,-0.020455763,0.12092538

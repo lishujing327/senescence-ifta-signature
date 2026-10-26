@@ -1,0 +1,16 @@
+﻿donor,age,senmayo,n_cells,disease_cat
+163-6,45.0,-0.065984614,52,Healthy_reference_tissue
+164-1,55.0,-0.15122929,1606,Healthy_reference_tissue
+164-3,25.0,-0.069767386,2157,Healthy_reference_tissue
+164-5,35.0,-0.081952944,1325,Healthy_reference_tissue
+164-6,35.0,-0.094054885,1979,Healthy_reference_tissue
+164-7,45.0,-0.12500641,946,Healthy_reference_tissue
+164-8,35.0,-0.11725664,437,Healthy_reference_tissue
+164-10,45.0,-0.0056935553,2163,Healthy_reference_tissue
+165-7,55.0,-0.020991739,2469,Healthy_reference_tissue
+165-9,35.0,-0.019808142,604,Healthy_reference_tissue
+165-10,55.0,0.09733071,36,Healthy_reference_tissue
+KRP446,29.0,-0.06364354,2215,Healthy_stone_donor
+KRP460,63.0,-0.055746883,1562,Healthy_stone_donor
+KRP461,54.0,-0.07869354,876,Healthy_stone_donor
+KRP462,69.0,0.033944562,1012,Healthy_stone_donor
