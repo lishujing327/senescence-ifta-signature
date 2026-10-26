@@ -1,0 +1,6 @@
+﻿panel,n_genes,overlap_ARDEGs,overlap_genes,overlap_signature,expected_by_chance,fisher_p_greater
+Suthanthiran 2013 urine TCMR Dx (3 genes),3,0,-,0,0.0032,1.0
+CRM (Khatri 2013) across-organ AR module (11),11,0,-,0,0.0115,1.0
+kSORT (Roedder 2014) blood AR prediction (17),17,0,-,0,0.0179,1.0
+Einecke 2010 JCI tissue graft-loss classifier (30),30,0,-,0,0.0315,1.0
+O'Connell 2016 Lancet tissue 12-mo fibrosis (13),13,0,-,0,0.0137,1.0

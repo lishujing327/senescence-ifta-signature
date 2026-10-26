@@ -1,0 +1,6 @@
+﻿cohort,comparison,n_pos,n_neg,auc,ci,p
+GSE53605,IF/TA vs Normal,10,18,1.0,1.000-1.000,1.78e-05
+GSE53605,ACR vs Normal,13,18,0.927,0.821-0.992,6.80e-05
+GSE53605,CNIT vs Normal,14,18,0.69,0.484-0.873,7.12e-02
+GSE7392,GIF/TA vs Normal,16,14,0.629,0.424-0.822,2.36e-01
+GSE7392(患者级),GIF/TA vs Normal,8,7,0.75,-,1.21e-01

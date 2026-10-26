@@ -1,0 +1,12 @@
+﻿arm,setting,cv_auc
+C,senescence_prior_21ARDEGs,0.8965
+A,whole_genome_top5,0.8215
+A,whole_genome_top10,0.8055
+A,whole_genome_top21,0.7905
+A,whole_genome_top50,0.7722
+A,whole_genome_top100,0.7863
+A,whole_genome_top500,0.7903
+A,whole_genome_top2000,0.8040
+B,random21_mean,0.6691
+B,random21_sd,0.0989
+B,random21_max,0.8947

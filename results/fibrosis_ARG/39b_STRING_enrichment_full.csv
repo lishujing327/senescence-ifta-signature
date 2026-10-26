@@ -1,0 +1,241 @@
+﻿category,term,number_of_genes,number_of_genes_in_background,ncbiTaxonId,inputGenes,preferredNames,p_value,fdr,description
+Process,GO:0031347,9,850,9606,"IFNG,AHR,IRF1,TLR2,TLR10,TLR8,GRPR,ETS1,SAMHD1","IFNG,AHR,IRF1,TLR2,TLR10,TLR8,GRPR,ETS1,SAMHD1",9.15e-08,0.00088,Regulation of defense response
+Process,GO:0031349,7,453,9606,"IFNG,IRF1,TLR2,TLR10,TLR8,GRPR,ETS1","IFNG,IRF1,TLR2,TLR10,TLR8,GRPR,ETS1",2.86e-07,0.00088,Positive regulation of defense response
+Process,GO:0042127,11,1638,9606,"IFNG,AHR,IRF1,IL7,IL7R,SUZ12,BCL11B,TTK,GRPR,ETS1,CCNA2","IFNG,AHR,IRF1,IL7,IL7R,SUZ12,BCL11B,TTK,GRPR,ETS1,CCNA2",2.05e-07,0.00088,Regulation of cell population proliferation
+Process,GO:0048518,18,6061,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,TOP2A,CCNA2","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,TOP2A,CCNA2",2.85e-07,0.00088,Positive regulation of biological process
+Process,GO:0006955,10,1419,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,CYBB,ETS1,SAMHD1","IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,CYBB,ETS1,SAMHD1",6.16e-07,0.0012,Immune response
+Process,GO:0043207,10,1389,9606,"IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,GRPR,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,GRPR,SAMHD1",5.05e-07,0.0012,Response to external biotic stimulus
+Process,GO:0002682,10,1597,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,ETS1,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,ETS1,SAMHD1",1.83e-06,0.0023,Regulation of immune system process
+Process,GO:0010557,12,2511,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,BCL11B,CYBB,ETS1,TOP2A,CCNA2","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,BCL11B,CYBB,ETS1,TOP2A,CCNA2",1.73e-06,0.0023,Positive regulation of macromolecule biosynthetic process
+Process,GO:1903131,6,366,9606,"IFNG,IRF1,TLR2,IL7,IL7R,BCL11B","IFNG,IRF1,TLR2,IL7,IL7R,BCL11B",1.69e-06,0.0023,Mononuclear cell differentiation
+Process,GO:0002376,11,2098,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,BCL11B,CYBB,ETS1,SAMHD1","IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,BCL11B,CYBB,ETS1,SAMHD1",2.49e-06,0.0026,Immune system process
+Process,GO:0051240,10,1655,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,GRPR,LOXL2,ETS1","IFNG,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,GRPR,LOXL2,ETS1",2.54e-06,0.0026,Positive regulation of multicellular organismal process
+Process,GO:0050776,8,975,9606,"IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,SAMHD1",4e-06,0.0035,Regulation of immune response
+Process,GO:0030097,7,711,9606,"IFNG,IRF1,TLR2,IL7,IL7R,BCL11B,TOP2A","IFNG,IRF1,TLR2,IL7,IL7R,BCL11B,TOP2A",5.79e-06,0.0042,Hemopoiesis
+Process,GO:0051707,9,1386,9606,"IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,SAMHD1",5.57e-06,0.0042,Response to other organism
+Process,GO:0050794,21,11162,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,KIF20A,TOP2A,INPP4B,CCNA2,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,KIF20A,TOP2A,INPP4B,CCNA2,SAMHD1",6.54e-06,0.0045,Regulation of cellular process
+Process,GO:0001819,6,497,9606,"IFNG,IRF1,TLR2,IL7,TLR8,CYBB","IFNG,IRF1,TLR2,IL7,TLR8,CYBB",9.84e-06,0.0055,Positive regulation of cytokine production
+Process,GO:0002221,4,137,9606,"IRF1,TLR2,TLR10,TLR8","IRF1,TLR2,TLR10,TLR8",1.22e-05,0.0055,Pattern recognition receptor signaling pathway
+Process,GO:0032101,8,1105,9606,"IFNG,AHR,IRF1,TLR2,TLR10,TLR8,ETS1,SAMHD1","IFNG,AHR,IRF1,TLR2,TLR10,TLR8,ETS1,SAMHD1",1.01e-05,0.0055,Regulation of response to external stimulus
+Process,GO:0032728,3,43,9606,"IRF1,TLR2,TLR8","IRF1,TLR2,TLR8",1.25e-05,0.0055,Positive regulation of interferon-beta production
+Process,GO:0032735,3,42,9606,"IFNG,IRF1,TLR2","IFNG,IRF1,TLR2",1.17e-05,0.0055,Positive regulation of interleukin-12 production
+Process,GO:0045087,7,782,9606,"IFNG,IRF1,TLR2,TLR10,TLR8,CYBB,SAMHD1","IFNG,IRF1,TLR2,TLR10,TLR8,CYBB,SAMHD1",1.08e-05,0.0055,Innate immune response
+Process,GO:0048522,16,5731,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,LOXL2,ETS1,TOP2A,CCNA2","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,SUZ12,BCL11B,RRM2,TTK,CYBB,LOXL2,ETS1,TOP2A,CCNA2",1.08e-05,0.0055,Positive regulation of cellular process
+Process,GO:0051607,5,290,9606,"IFNG,IRF1,TLR2,TLR8,SAMHD1","IFNG,IRF1,TLR2,TLR8,SAMHD1",1.12e-05,0.0055,Defense response to virus
+Process,GO:0010628,8,1165,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,ETS1","IFNG,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,ETS1",1.49e-05,0.0058,Positive regulation of gene expression
+Process,GO:0002224,3,48,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",1.75e-05,0.0063,Toll-like receptor signaling pathway
+Process,GO:0002757,5,317,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",1.72e-05,0.0063,Immune response-activating signaling pathway
+Process,GO:0002831,6,563,9606,"AHR,IRF1,TLR2,TLR10,TLR8,SAMHD1","AHR,IRF1,TLR2,TLR10,TLR8,SAMHD1",2e-05,0.0065,Regulation of response to biotic stimulus
+Process,GO:0032103,6,573,9606,"IFNG,IRF1,TLR2,TLR10,TLR8,ETS1","IFNG,IRF1,TLR2,TLR10,TLR8,ETS1",2.21e-05,0.0065,Positive regulation of response to external stimulus
+Process,GO:0050896,18,7863,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,TOP2A,INPP4B,CCNA2,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,RRM2,TTK,CYBB,GRPR,LOXL2,ETS1,TOP2A,INPP4B,CCNA2,SAMHD1",2.1e-05,0.0065,Response to stimulus
+Process,GO:0071221,2,7,9606,"TLR2,TLR10","TLR2,TLR10",2.27e-05,0.0065,Cellular response to bacterial lipopeptide
+Process,GO:0038111,2,8,9606,"IL7,IL7R","IL7,IL7R",3.02e-05,0.0081,interleukin-7-mediated signaling pathway
+Process,GO:0048584,10,2257,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,GRPR,ETS1","IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,GRPR,ETS1",4.07e-05,0.0096,Positive regulation of response to stimulus
+Process,GO:0051716,16,6282,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,RRM2,TTK,CYBB,GRPR,TOP2A,INPP4B,CCNA2,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,RRM2,TTK,CYBB,GRPR,TOP2A,INPP4B,CCNA2,SAMHD1",3.9e-05,0.0096,Cellular response to stimulus
+Process,GO:1903037,5,382,9606,"IFNG,IRF1,IL7,IL7R,ETS1","IFNG,IRF1,IL7,IL7R,ETS1",4.21e-05,0.0096,Regulation of leukocyte cell-cell adhesion
+Process,GO:0045580,4,191,9606,"IFNG,IRF1,IL7,IL7R","IFNG,IRF1,IL7,IL7R",4.5e-05,0.0099,Regulation of T cell differentiation
+Process,GO:0030217,4,196,9606,"IRF1,IL7,IL7R,BCL11B","IRF1,IL7,IL7R,BCL11B",4.98e-05,0.0106,T cell differentiation
+Process,GO:0002684,7,1010,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8","IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8",5.63e-05,0.0113,Positive regulation of immune system process
+Process,GO:0006950,12,3499,9606,"IFNG,IRF1,TLR2,IL7R,TLR10,TLR8,RRM2,CYBB,LOXL2,TOP2A,CCNA2,SAMHD1","IFNG,IRF1,TLR2,IL7R,TLR10,TLR8,RRM2,CYBB,LOXL2,TOP2A,CCNA2,SAMHD1",5.77e-05,0.0113,Response to stress
+Process,GO:0010468,14,4847,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,SUZ12,BCL11B,CYBB,LOXL2,ETS1,TOP2A,CCNA2","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,SUZ12,BCL11B,CYBB,LOXL2,ETS1,TOP2A,CCNA2",5.57e-05,0.0113,Regulation of gene expression
+Process,GO:0032722,3,70,9606,"IFNG,TLR2,IL7","IFNG,TLR2,IL7",5.46e-05,0.0113,Positive regulation of chemokine production
+Process,GO:2000026,8,1405,9606,"IFNG,IRF1,TLR2,IL7,IL7R,CYBB,LOXL2,ETS1","IFNG,IRF1,TLR2,IL7,IL7R,CYBB,LOXL2,ETS1",5.76e-05,0.0113,Regulation of multicellular organismal development
+Process,GO:1903706,5,421,9606,"IFNG,IRF1,IL7,IL7R,ETS1","IFNG,IRF1,IL7,IL7R,ETS1",6.68e-05,0.0128,Regulation of hemopoiesis
+Process,GO:0051239,11,2978,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,GRPR,LOXL2,ETS1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR8,CYBB,GRPR,LOXL2,ETS1",7.46e-05,0.0139,Regulation of multicellular organismal process
+Process,GO:0006915,7,1072,9606,"IFNG,AHR,IRF1,TLR2,IL7,BCL11B,TOP2A","IFNG,AHR,IRF1,TLR2,IL7,BCL11B,TOP2A",8.21e-05,0.0147,Apoptotic process
+Process,GO:0050793,10,2449,9606,"IFNG,IRF1,TLR2,IL7,IL7R,SUZ12,BCL11B,CYBB,LOXL2,ETS1","IFNG,IRF1,TLR2,IL7,IL7R,SUZ12,BCL11B,CYBB,LOXL2,ETS1",8.29e-05,0.0147,Regulation of developmental process
+Process,GO:0006952,8,1486,9606,"IFNG,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,SAMHD1","IFNG,IRF1,TLR2,IL7R,TLR10,TLR8,CYBB,SAMHD1",8.59e-05,0.0149,Defense response
+Process,GO:0060333,2,14,9606,"IFNG,IRF1","IFNG,IRF1",9.77e-05,0.0167,Type II interferon-mediated signaling pathway
+Process,GO:0071346,3,87,9606,"IFNG,IRF1,TLR2","IFNG,IRF1,TLR2",0.0001,0.0176,Cellular response to type II interferon
+Process,GO:0045088,5,474,9606,"IRF1,TLR2,TLR10,TLR8,SAMHD1","IRF1,TLR2,TLR10,TLR8,SAMHD1",0.00012,0.0187,Regulation of innate immune response
+Process,GO:0045595,8,1555,9606,"IFNG,IRF1,IL7,IL7R,SUZ12,BCL11B,LOXL2,ETS1","IFNG,IRF1,IL7,IL7R,SUZ12,BCL11B,LOXL2,ETS1",0.00012,0.0187,Regulation of cell differentiation
+Process,GO:0032755,3,96,9606,"IFNG,TLR2,TLR8","IFNG,TLR2,TLR8",0.00014,0.0213,Positive regulation of interleukin-6 production
+Process,GO:0051249,5,519,9606,"IFNG,AHR,IRF1,IL7,IL7R","IFNG,AHR,IRF1,IL7,IL7R",0.00018,0.0265,Regulation of lymphocyte activation
+Process,GO:0045893,8,1662,9606,"IFNG,AHR,IRF1,TLR2,BCL11B,ETS1,TOP2A,CCNA2","IFNG,AHR,IRF1,TLR2,BCL11B,ETS1,TOP2A,CCNA2",0.00019,0.0276,Positive regulation of DNA-templated transcription
+Process,GO:0032760,3,109,9606,"IFNG,TLR2,CYBB","IFNG,TLR2,CYBB",0.0002,0.0285,Positive regulation of tumor necrosis factor production
+Process,GO:0045944,7,1237,9606,"IFNG,AHR,IRF1,TLR2,BCL11B,ETS1,TOP2A","IFNG,AHR,IRF1,TLR2,BCL11B,ETS1,TOP2A",0.0002,0.0285,Positive regulation of transcription by RNA polymerase II
+Process,GO:1903039,4,281,9606,"IFNG,IL7,IL7R,ETS1","IFNG,IL7,IL7R,ETS1",0.0002,0.0285,Positive regulation of leukocyte cell-cell adhesion
+Process,GO:0048583,12,4043,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,GRPR,ETS1,SAMHD1","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,GRPR,ETS1,SAMHD1",0.00025,0.0326,Regulation of response to stimulus
+Process,GO:0007165,13,4792,9606,"IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,CYBB,GRPR,INPP4B,CCNA2","IFNG,AHR,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,TTK,CYBB,GRPR,INPP4B,CCNA2",0.00028,0.0357,Signal transduction
+Process,GO:0008284,6,918,9606,"IFNG,IL7,IL7R,SUZ12,TTK,CCNA2","IFNG,IL7,IL7R,SUZ12,TTK,CCNA2",0.0003,0.0372,Positive regulation of cell population proliferation
+Process,GO:0045582,3,124,9606,"IFNG,IL7,IL7R","IFNG,IL7,IL7R",0.0003,0.0372,Positive regulation of T cell differentiation
+Process,GO:0070233,2,24,9606,"IL7R,BCL11B","IL7R,BCL11B",0.00029,0.0372,Negative regulation of T cell apoptotic process
+Process,GO:0006954,5,596,9606,"IFNG,TLR2,TLR10,TLR8,CYBB","IFNG,TLR2,TLR10,TLR8,CYBB",0.00034,0.0405,Inflammatory response
+Process,GO:0140894,2,26,9606,"IRF1,TLR8","IRF1,TLR8",0.00035,0.041,Endolysosomal toll-like receptor signaling pathway
+Process,GO:0045321,5,634,9606,"IFNG,IRF1,IL7,IL7R,BCL11B","IFNG,IRF1,IL7,IL7R,BCL11B",0.00045,0.05,Leukocyte activation
+TISSUES,BTO:0000744,5,433,9606,"SUZ12,BCL11B,RRM2,ETS1,TOP2A","SUZ12,BCL11B,RRM2,ETS1,TOP2A",7.63e-05,0.0357,Lymphocytic leukemia cell
+TISSUES,BTO:0000753,8,1646,9606,"IFNG,TLR2,IL7R,TLR10,BCL11B,RRM2,LOXL2,SAMHD1","IFNG,TLR2,IL7R,TLR10,BCL11B,RRM2,LOXL2,SAMHD1",0.00018,0.0357,Lymphoid tissue
+TISSUES,BTO:0000782,4,278,9606,"IFNG,TLR2,IL7R,SAMHD1","IFNG,TLR2,IL7R,SAMHD1",0.00019,0.0357,T-lymphocyte
+TISSUES,BTO:0001271,7,1093,9606,"SUZ12,BCL11B,RRM2,ETS1,TOP2A,CCNA2,SAMHD1","SUZ12,BCL11B,RRM2,ETS1,TOP2A,CCNA2,SAMHD1",9.28e-05,0.0357,Leukemia cell
+TISSUES,BTO:0000289,2,24,9606,"IFNG,IL7R","IFNG,IL7R",0.00029,0.0361,Cytotoxic T-lymphocyte
+TISSUES,BTO:0002417,2,25,9606,"IFNG,IL7R","IFNG,IL7R",0.00032,0.0361,Helper T-lymphocyte
+TISSUES,BTO:0000180,4,347,9606,"SUZ12,RRM2,TOP2A,CCNA2","SUZ12,RRM2,TOP2A,CCNA2",0.00045,0.0448,Cervical carcinoma cell
+DISEASES,DOID:627,3,33,9606,"IL7,IL7R,BCL11B","IL7,IL7R,BCL11B",5.58e-06,0.0138,Severe combined immunodeficiency
+DISEASES,DOID:612,5,370,9606,"IFNG,IL7,IL7R,BCL11B,CYBB","IFNG,IL7,IL7R,BCL11B,CYBB",3.61e-05,0.0298,Primary immunodeficiency disease
+Keyword,KW-0399,4,229,9606,"TLR2,TLR10,TLR8,SAMHD1","TLR2,TLR10,TLR8,SAMHD1",9.11e-05,0.0466,Innate immunity
+KEGG,hsa05140,3,74,9606,"IFNG,TLR2,CYBB","IFNG,TLR2,CYBB",6.45e-05,0.0237,Leishmaniasis
+KEGG,hsa05200,5,525,9606,"IFNG,IL7,IL7R,ETS1,CCNA2","IFNG,IL7,IL7R,ETS1,CCNA2",0.00019,0.0346,Pathways in cancer
+InterPro,IPR000157,3,27,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",3e-06,0.0146,Toll/interleukin-1 receptor homology (TIR) domain
+InterPro,IPR035897,3,28,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",3.36e-06,0.0146,Toll/interleukin-1 receptor homology (TIR) domain superfamily
+InterPro,IPR017241,2,6,9606,"TLR2,TLR10","TLR2,TLR10",1.62e-05,0.047,Toll-like receptor
+PMID,PMID:19474790,6,27,9606,"AHR,TLR2,IL7,IL7R,TLR10,BCL11B","AHR,TLR2,IL7,IL7R,TLR10,BCL11B",1.95e-13,1e-06,(2009) Dual nature of the adaptive immune system in lampreys.
+PMID,PMID:34042518,5,13,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",1.05e-12,1.64e-06,(2021) ASPM is a Novel Candidate Gene Associated with Colorectal Cancer Cell Growth.
+PMID,PMID:30221738,6,33,9606,"IFNG,IRF1,TLR2,TLR8,CYBB,CCNA2","IFNG,IRF1,TLR2,TLR8,CYBB,CCNA2",7.28e-13,1.64e-06,(2018) Modular bioinformatics analysis demonstrates that a Toll-like receptor signaling pathway is involved in the regulation of macrophage polarization.
+PMID,PMID:26617525,6,36,9606,"IFNG,AHR,TLR2,TLR10,TLR8,INPP4B","IFNG,AHR,TLR2,TLR10,TLR8,INPP4B",1.28e-12,1.64e-06,(2015) Molecular Regulation of Toll-like Receptors in Asthma and COPD.
+PMID,PMID:26398682,6,39,9606,"IFNG,AHR,TLR2,IL7,IL7R,BCL11B","IFNG,AHR,TLR2,IL7,IL7R,BCL11B",2.14e-12,2.2e-06,(2015) Cross-talk between type 3 innate lymphoid cells and the gut microbiota in inflammatory bowel disease.
+PMID,PMID:28590292,6,41,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR8","IFNG,IRF1,TLR2,IL7,IL7R,TLR8",2.94e-12,2.52e-06,(2017) Transcriptome profiles in sarcoidosis and their potential role in disease prediction.
+PMID,PMID:32440821,5,18,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",6.99e-12,5.14e-06,(2020) Identification of Hub Genes in Atypical TeratoidRhabdoid Tumor by Bioinformatics Analyses.
+PMID,PMID:39764737,5,20,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",1.26e-11,8.13e-06,(2025) The miRNA-mRNA Regulatory Network in Human Hepatocellular Carcinoma by Transcriptomic Analysis From GEO.
+PMID,PMID:36942252,5,24,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",3.46e-11,8.56e-06,(2023) Relationship between the deep features of the full-scan pathological map of mucinous gastric carcinoma and related genes based on deep learning.
+PMID,PMID:37228603,7,126,9606,"IFNG,IRF1,IL7,IL7R,BCL11B,ETS1,TOP2A","IFNG,IRF1,IL7,IL7R,BCL11B,ETS1,TOP2A",4e-11,8.56e-06,(2023) Single-cell landscape dissecting the transcription and heterogeneity of innate lymphoid cells in ischemic heart.
+PMID,PMID:37781382,7,123,9606,"IFNG,IRF1,TLR2,IL7,TLR10,TLR8,SAMHD1","IFNG,IRF1,TLR2,IL7,TLR10,TLR8,SAMHD1",3.37e-11,8.56e-06,(2023) Innate immune response restarts adaptive immune response in tumors.
+PMID,PMID:35011701,7,126,9606,"IFNG,TLR2,IL7,IL7R,TLR10,TLR8,BCL11B","IFNG,TLR2,IL7,IL7R,TLR10,TLR8,BCL11B",4e-11,8.56e-06,(2022) Insights into Modern Therapeutic Approaches in Pediatric Acute Leukemias.
+PMID,PMID:35330617,6,59,9606,"IFNG,IRF1,TLR2,CYBB,CCNA2,SAMHD1","IFNG,IRF1,TLR2,CYBB,CCNA2,SAMHD1",2.91e-11,8.56e-06,(2022) Genotoxic stress signalling as a driver of macrophage diversity.
+PMID,PMID:36224474,6,59,9606,"IFNG,TLR2,IL7,IL7R,TLR10,TLR8","IFNG,TLR2,IL7,IL7R,TLR10,TLR8",2.91e-11,8.56e-06,(2022) Contribution of T- and B-cell intrinsic toll-like receptors to the adaptive immune response in viral infectious diseases.
+PMID,PMID:33728277,6,62,9606,"IFNG,TLR2,IL7,IL7R,TLR10,TLR8","IFNG,TLR2,IL7,IL7R,TLR10,TLR8",3.97e-11,8.56e-06,(2021) Cellular and Humoral Immune Responses in Covid-19 and Immunotherapeutic Approaches.
+PMID,PMID:34141706,5,24,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",3.46e-11,8.56e-06,(2021) Toll-Like Receptor 4 as a Favorable Prognostic Marker in Bladder Cancer: A Multi-Omics Analysis.
+PMID,PMID:34790055,5,22,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",2.14e-11,8.56e-06,(2021) Role of interferon regulatory factor-mediated signaling in psoriasis.
+PMID,PMID:32161593,6,61,9606,"IFNG,AHR,IL7,IL7R,BCL11B,ETS1","IFNG,AHR,IL7,IL7R,BCL11B,ETS1",3.58e-11,8.56e-06,(2020) Transcriptional Regulation of Mouse Tissue-Resident Natural Killer Cell Development.
+PMID,PMID:29583030,5,24,9606,"IFNG,IRF1,IL7,CCNA2,SAMHD1","IFNG,IRF1,IL7,CCNA2,SAMHD1",3.46e-11,8.56e-06,"(2018) SAMHD1: Recurring roles in cell cycle, viral restriction, cancer, and innate immunity."
+PMID,PMID:30167433,6,61,9606,"IFNG,IRF1,TLR2,TLR10,TLR8,CYBB","IFNG,IRF1,TLR2,TLR10,TLR8,CYBB",3.58e-11,8.56e-06,(2018) Influence of Genetic Polymorphism Towards Pulmonary Tuberculosis Susceptibility.
+PMID,PMID:28108952,6,62,9606,"IFNG,AHR,IL7,IL7R,BCL11B,ETS1","IFNG,AHR,IL7,IL7R,BCL11B,ETS1",3.97e-11,8.56e-06,(2017) Transcriptional regulators dictate innate lymphoid cell fates.
+PMID,PMID:29105654,6,62,9606,"IFNG,IRF1,IL7,IL7R,ETS1,CCNA2","IFNG,IRF1,IL7,IL7R,ETS1,CCNA2",3.97e-11,8.56e-06,(2017) Critical functions for STAT5 tetramers in the maturation and survival of natural killer cells.
+PMID,PMID:26845614,6,54,9606,"IFNG,AHR,IL7,IL7R,BCL11B,ETS1","IFNG,AHR,IL7,IL7R,BCL11B,ETS1",1.67e-11,8.56e-06,(2016) Development and maturation of natural killer cells.
+PMID,PMID:22224775,5,23,9606,"AHR,TLR2,IL7,TLR10,BCL11B","AHR,TLR2,IL7,TLR10,BCL11B",2.74e-11,8.56e-06,(2012) VLR-based adaptive immunity.
+PMID,PMID:39239040,5,25,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",4.32e-11,8.88e-06,(2024) Esophageal chemical burns as a risk factor for esophageal malignancies: in-silico analyses - experimental research.
+PMID,PMID:34282358,5,26,9606,"IFNG,TLR2,TLR10,TLR8,GRPR","IFNG,TLR2,TLR10,TLR8,GRPR",5.34e-11,1.02e-05,(2021) Targeting TLR4 Signaling to Blunt Viral-Mediated Acute Lung Injury.
+PMID,PMID:20963181,6,65,9606,"IFNG,IRF1,TLR2,IL7,TLR10,TLR8","IFNG,IRF1,TLR2,IL7,TLR10,TLR8",5.32e-11,1.02e-05,(2010) Autoimmunity in Coxsackievirus B3 induced myocarditis: role of estrogen in suppressing autoimmunity.
+PMID,PMID:36829466,6,67,9606,"IFNG,RRM2,TTK,KIF20A,TOP2A,CCNA2","IFNG,RRM2,TTK,KIF20A,TOP2A,CCNA2",6.42e-11,1.11e-05,(2023) Transcriptomic Analysis of Hepatitis B Infected Liver for Prediction of Hepatocellular Carcinoma.
+PMID,PMID:37576639,5,27,9606,"IFNG,TLR2,TLR10,TLR8,CYBB","IFNG,TLR2,TLR10,TLR8,CYBB",6.55e-11,1.11e-05,(2023) Nanoadjuvants: Promising Bioinspired and Biomimetic Approaches in Vaccine Innovation.
+PMID,PMID:34262571,6,67,9606,"IFNG,AHR,IRF1,TLR2,IL7R,CYBB","IFNG,AHR,IRF1,TLR2,IL7R,CYBB",6.42e-11,1.11e-05,(2021) Understanding the Reciprocal Interplay Between Antibiotics and Host Immune System: How Can We Improve the Anti-Mycobacterial Activity of Current Drugs to Better Control Tuberculosis?
+PMID,PMID:20497296,4,8,9606,"IFNG,IRF1,IL7,IL7R","IFNG,IRF1,IL7,IL7R",6.66e-11,1.11e-05,(2010) The role of IL-1beta in reduced IL-7 production by stromal and epithelial cells: a model for impaired T-cell numbers in the gut during HIV-1 infection.
+PMID,PMID:29676074,5,28,9606,"IFNG,TLR2,IL7R,TLR10,TLR8","IFNG,TLR2,IL7R,TLR10,TLR8",7.97e-11,1.24e-05,(2018) Immune Characterization of Bone Marrow-Derived Models of Mucosal and Connective Tissue Mast Cells.
+PMID,PMID:25950701,5,28,9606,"IFNG,AHR,TLR2,IL7,IL7R","IFNG,AHR,TLR2,IL7,IL7R",7.97e-11,1.24e-05,(2015) TNF-alpha Producing Innate Lymphoid Cells (ILCs) Are Increased in Active Celiac Disease and Contribute to Promote Intestinal Atrophy in Mice.
+PMID,PMID:31354745,6,70,9606,"IFNG,AHR,IL7,IL7R,BCL11B,ETS1","IFNG,AHR,IL7,IL7R,BCL11B,ETS1",8.41e-11,1.27e-05,(2019) Functions of Group 2 Innate Lymphoid Cells in Tumor Microenvironment.
+PMID,PMID:35462764,5,29,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",9.62e-11,1.34e-05,(2022) Association of toll-like receptors single nucleotide polymorphisms with HBV and HCV infection: research status.
+PMID,PMID:26623425,6,71,9606,"IFNG,TLR2,IL7,IL7R,TLR8,BCL11B","IFNG,TLR2,IL7,IL7R,TLR8,BCL11B",9.18e-11,1.34e-05,(2015) Pathological conditions re-shape physiological Tregs into pathological Tregs.
+PMID,PMID:23781340,5,29,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",9.62e-11,1.34e-05,(2013) Enhanced Dendritic Cell-Mediated Antigen-Specific CD4+ T Cell Responses: IFN-Gamma Aids TLR Stimulation.
+PMID,PMID:23484159,5,30,9606,"IFNG,TLR2,IL7R,TLR10,TLR8","IFNG,TLR2,IL7R,TLR10,TLR8",1.15e-10,1.56e-05,(2013) Increased toll-like receptor signaling pathways characterize CD8+ cells in rapidly progressive SIV infection.
+PMID,PMID:36543347,6,76,9606,"IFNG,IRF1,TLR2,IL7,TLR10,TLR8","IFNG,IRF1,TLR2,IL7,TLR10,TLR8",1.4e-10,1.71e-05,(2022) Immune mechanisms in fibrotic pulmonary sarcoidosis.
+PMID,PMID:26567164,5,31,9606,"IFNG,TLR2,IL7,IL7R,TLR10","IFNG,TLR2,IL7,IL7R,TLR10",1.37e-10,1.71e-05,"(2015) Monocyte unresponsiveness and impaired IL1beta, TNFalpha and IL7 production are associated with a poor outcome in Malawian adults with pulmonary tuberculosis."
+PMID,PMID:22737174,7,150,9606,"IFNG,AHR,TLR2,IL7,IL7R,TLR10,TLR8","IFNG,AHR,TLR2,IL7,IL7R,TLR10,TLR8",1.37e-10,1.71e-05,(2012) The effects of TLR activation on T-cell development and differentiation.
+PMID,PMID:21869816,6,76,9606,"IFNG,IRF1,IL7,IL7R,BCL11B,ETS1","IFNG,IRF1,IL7,IL7R,BCL11B,ETS1",1.4e-10,1.71e-05,"(2011) NK cell development, homeostasis and function: parallels with CD8+ T cells."
+PMID,PMID:30450666,6,77,9606,"IFNG,AHR,TLR2,IL7,TLR10,TLR8","IFNG,AHR,TLR2,IL7,TLR10,TLR8",1.51e-10,1.81e-05,(2019) Recent clinical trends in Toll-like receptor targeting therapeutics.
+PMID,PMID:36660720,5,32,9606,"IFNG,SUZ12,TTK,KIF20A,TOP2A","IFNG,SUZ12,TTK,KIF20A,TOP2A",1.63e-10,1.86e-05,(2022) Pan-cancer analysis of DEPDC1 as a candidate prognostic biomarker and associated with immune infiltration.
+PMID,PMID:26871595,5,32,9606,"IFNG,AHR,IL7R,BCL11B,ETS1","IFNG,AHR,IL7R,BCL11B,ETS1",1.63e-10,1.86e-05,(2016) The development of adult innate lymphoid cells.
+PMID,PMID:25309961,6,80,9606,"IL7,BCL11B,TTK,ETS1,TOP2A,CCNA2","IL7,BCL11B,TTK,ETS1,TOP2A,CCNA2",1.92e-10,2.1e-05,(2013) The DN2 Myeloid-T (DN2mt) Progenitor is a Target Cell for Leukemic Transformation by the TLX1 Oncogene.
+PMID,PMID:34456928,5,33,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",1.92e-10,2.1e-05,(....) DAMPening COVID-19 Severity by Attenuating Danger Signals.
+PMID,PMID:32233299,4,10,9606,"IFNG,TLR2,TLR10,TLR8","IFNG,TLR2,TLR10,TLR8",2e-10,2.14e-05,(2020) Effects of porcine epidemic diarrhea virus infection on Toll-like receptor expression and cytokine levels in porcine intestinal epithelial cells.
+PMID,PMID:34335634,5,35,9606,"IFNG,AHR,TLR2,TLR10,TLR8","IFNG,AHR,TLR2,TLR10,TLR8",2.62e-10,2.64e-05,"(2021) Gut Microbiota, Probiotics, and Their Interactions in Prevention and Treatment of Atopic Dermatitis: A Review."
+PMID,PMID:30294966,6,84,9606,"IFNG,AHR,IL7,IL7R,BCL11B,ETS1","IFNG,AHR,IL7,IL7R,BCL11B,ETS1",2.58e-10,2.64e-05,(2018) Deconstructing deployment of the innate immune lymphocyte army for barrier homeostasis and protection.
+PMID,PMID:26379372,5,35,9606,"IFNG,AHR,IL7,IL7R,BCL11B","IFNG,AHR,IL7,IL7R,BCL11B",2.62e-10,2.64e-05,(2015) Transcriptional Regulatory Network for the Development of Innate Lymphoid Cells.
+PMID,PMID:25674088,6,85,9606,"IFNG,AHR,TLR2,IL7,TLR8,CYBB","IFNG,AHR,TLR2,IL7,TLR8,CYBB",2.78e-10,2.75e-05,(2015) Various forms of tissue damage and danger signals following hematopoietic stem-cell transplantation.
+PMID,PMID:38067357,6,86,9606,"IRF1,RRM2,TTK,KIF20A,TOP2A,CCNA2","IRF1,RRM2,TTK,KIF20A,TOP2A,CCNA2",2.99e-10,2.79e-05,(2023) Comprehensive Profiling and Therapeutic Insights into Differentially Expressed Genes in Hepatocellular Carcinoma.
+PMID,PMID:33623390,5,36,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",3.04e-10,2.79e-05,(2021) Comprehensive Analysis of Gene Expression Changes and Validation in Hepatocellular Carcinoma.
+PMID,PMID:33584648,5,36,9606,"IFNG,IRF1,TLR2,IL7,IL7R","IFNG,IRF1,TLR2,IL7,IL7R",3.04e-10,2.79e-05,(2020) Translation of IRF-1 Restricts Hepatic Interleukin-7 Production to Types I and II Interferons: Implications for Hepatic Immunity.
+PMID,PMID:28842466,5,36,9606,"IFNG,AHR,TLR2,IL7,IL7R","IFNG,AHR,TLR2,IL7,IL7R",3.04e-10,2.79e-05,(2017) IL-18 Drives ILC3 Proliferation and Promotes IL-22 Production via NF-kappaB.
+PMID,PMID:30448720,4,11,9606,"IFNG,TLR2,TLR10,TLR8","IFNG,TLR2,TLR10,TLR8",3.13e-10,2.83e-05,(2019) Analysis of stage-specific expression of the toll-like receptor family in the porcine endometrium throughout the estrous cycle and pregnancy.
+PMID,PMID:37096155,5,37,9606,"IFNG,AHR,TLR2,IL7,TLR8","IFNG,AHR,TLR2,IL7,TLR8",3.51e-10,2.96e-05,(2023) The Role of TSLP in Atopic Dermatitis: From Pathogenetic Molecule to Therapeutical Target.
+PMID,PMID:34556887,6,88,9606,"IFNG,IL7,IL7R,BCL11B,ETS1,TOP2A","IFNG,IL7,IL7R,BCL11B,ETS1,TOP2A",3.44e-10,2.96e-05,(2021) T-bet and RORalpha control lymph node formation by regulating embryonic innate lymphoid cell differentiation.
+PMID,PMID:21149601,5,37,9606,"IFNG,IRF1,TLR2,IL7R,CYBB","IFNG,IRF1,TLR2,IL7R,CYBB",3.51e-10,2.96e-05,(2011) Infection-induced myelopoiesis during intracellular bacterial infection is critically dependent upon IFN-gamma signaling.
+PMID,PMID:20620944,5,37,9606,"IFNG,AHR,IL7,IL7R,ETS1","IFNG,AHR,IL7,IL7R,ETS1",3.51e-10,2.96e-05,(2010) Interleukin-1beta selectively expands and sustains interleukin-22+ immature human natural killer cells in secondary lymphoid tissue.
+PMID,PMID:23084357,5,38,9606,"IFNG,AHR,TLR2,IL7,IL7R","IFNG,AHR,TLR2,IL7,IL7R",4.04e-10,3.3e-05,(2012) Innate lymphoid cell interactions with microbiota: implications for intestinal health and disease.
+PMID,PMID:21339363,5,38,9606,"IFNG,AHR,IL7,IL7R,ETS1","IFNG,AHR,IL7,IL7R,ETS1",4.04e-10,3.3e-05,(2011) T cell factor-1 negatively regulates expression of IL-17 family of cytokines and protects mice from experimental autoimmune encephalomyelitis.
+PMID,PMID:36899868,6,91,9606,"IFNG,TLR2,IL7,TLR10,TLR8,SAMHD1","IFNG,TLR2,IL7,TLR10,TLR8,SAMHD1",4.22e-10,3.34e-05,(2023) Host Cell Restriction Factors Blocking Efficient Vector Transduction: Challenges in Lentiviral and Adeno-Associated Vector Based Gene Therapies.
+PMID,PMID:22972474,6,91,9606,"IFNG,IRF1,TLR2,IL7,TLR10,TLR8","IFNG,IRF1,TLR2,IL7,TLR10,TLR8",4.22e-10,3.34e-05,(2012) Transcriptional signatures as a disease-specific and predictive inflammatory biomarker for type 1 diabetes.
+PMID,PMID:35327516,5,40,9606,"IFNG,IRF1,TLR2,IL7,IL7R","IFNG,IRF1,TLR2,IL7,IL7R",5.29e-10,3.89e-05,(2022) Involvement of Il-33 in the Pathogenesis and Prognosis of Major Respiratory Viral Infections: Future Perspectives for Personalized Therapy.
+PMID,PMID:35873497,5,40,9606,"RRM2,TTK,KIF20A,TOP2A,CCNA2","RRM2,TTK,KIF20A,TOP2A,CCNA2",5.29e-10,3.89e-05,(2022) Chromatin Separation Regulators Predict the Prognosis and Immune Microenvironment Estimation in Lung Adenocarcinoma.
+PMID,PMID:33229442,5,40,9606,"IFNG,TLR2,IL7,IL7R,TLR8","IFNG,TLR2,IL7,IL7R,TLR8",5.29e-10,3.89e-05,(2021) The Invariant NKT Cell Response Has Differential Signaling Requirements during Antigen-Dependent and Antigen-Independent Activation.
+PMID,PMID:25453343,5,40,9606,"IRF1,TLR2,TLR10,TLR8,SAMHD1","IRF1,TLR2,TLR10,TLR8,SAMHD1",5.29e-10,3.89e-05,(2014) Toll-like receptor 3 signaling inhibits simian immunodeficiency virus replication in macrophages from rhesus macaques.
+PMID,PMID:19279047,5,40,9606,"IFNG,TLR2,IL7,IL7R,TLR8","IFNG,TLR2,IL7,IL7R,TLR8",5.29e-10,3.89e-05,(2009) Regulatory T-cells and immune tolerance in pregnancy: a new target for infertility treatment?
+PMID,PMID:18822314,6,95,9606,"IFNG,IRF1,TLR2,IL7,TLR10,TLR8","IFNG,IRF1,TLR2,IL7,TLR10,TLR8",5.49e-10,3.92e-05,(2009) Toll-like receptors in neurodegeneration.
+PMID,PMID:19664281,6,95,9606,"IFNG,IRF1,TLR2,TLR8,KIF20A,CCNA2","IFNG,IRF1,TLR2,TLR8,KIF20A,CCNA2",5.49e-10,3.92e-05,(2009) Combined genome-wide expression profiling and targeted RNA interference in primary mouse macrophages reveals perturbation of transcriptional networks associated with interferon signalling.
+PMID,PMID:36394017,5,41,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",6.02e-10,4.02e-05,(2022) Improving the ex vivo expansion of human tumor-reactive CD8 + T cells by targeting toll-like receptors.
+PMID,PMID:35387020,5,41,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",6.02e-10,4.02e-05,(2021) TLR Signals in Epithelial Cells in the Nasal Cavity and Paranasal Sinuses.
+PMID,PMID:32038538,5,41,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",6.02e-10,4.02e-05,(2019) Transmissible Gastroenteritis Virus Infection Up-Regulates FcRn Expression via Nucleocapsid Protein and Secretion of TGF-beta in Porcine Intestinal Epithelial Cells.
+PMID,PMID:27799218,5,41,9606,"IFNG,TLR2,IL7,TLR10,TLR8","IFNG,TLR2,IL7,TLR10,TLR8",6.02e-10,4.02e-05,(2017) TLR7 Agonist GS-9620 Is a Potent Inhibitor of Acute HIV-1 Infection in Human Peripheral Blood Mononuclear Cells.
+PMID,PMID:24503128,5,41,9606,"IFNG,AHR,TLR2,IL7,IL7R","IFNG,AHR,TLR2,IL7,IL7R",6.02e-10,4.02e-05,(2014) Regulation of the immune system by the resident intestinal bacteria.
+PMID,PMID:35281470,5,42,9606,"IFNG,IRF1,TLR2,TLR8,CYBB","IFNG,IRF1,TLR2,TLR8,CYBB",6.83e-10,4.13e-05,(2022) Oxidative Stress-Related Mechanisms in SARS-CoV-2 Infections.
+PMID,PMID:36286068,5,42,9606,"IFNG,IRF1,TLR2,IL7R,CYBB","IFNG,IRF1,TLR2,IL7R,CYBB",6.83e-10,4.13e-05,(2022) Role of Interferons in Mycobacterium tuberculosis Infection.
+PMID,PMID:33901562,5,42,9606,"IFNG,IRF1,TLR2,IL7R,ETS1","IFNG,IRF1,TLR2,IL7R,ETS1",6.83e-10,4.13e-05,(2021) Triangulating Molecular Evidence to Prioritize Candidate Causal Genes at Established Atopic Dermatitis Loci.
+PMID,PMID:32353080,5,42,9606,"IFNG,IL7,IL7R,CCNA2,SAMHD1","IFNG,IL7,IL7R,CCNA2,SAMHD1",6.83e-10,4.13e-05,(2020) Tissue memory CD4+ T cells expressing IL-7 receptor-alpha (CD127) preferentially support latent HIV-1 infection.
+PMID,PMID:30104243,4,13,9606,"IFNG,IL7,IL7R,SAMHD1","IFNG,IL7,IL7R,SAMHD1",6.78e-10,4.13e-05,(2018) SAMHD1 Posttranscriptionally Controls the Expression of Foxp3 and Helios in Human T Regulatory Cells.
+PMID,PMID:27389961,5,42,9606,"IFNG,AHR,IRF1,IL7,IL7R","IFNG,AHR,IRF1,IL7,IL7R",6.83e-10,4.13e-05,(2016) IL-21 and T Cell Differentiation: Consider the Context.
+PMID,PMID:25118993,4,13,9606,"RRM2,TTK,KIF20A,TOP2A","RRM2,TTK,KIF20A,TOP2A",6.78e-10,4.13e-05,(2015) Downregulated CXCL12 expression in mesenchymal stem cells associated with severe aplastic anemia in children.
+PMID,PMID:19426145,5,42,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",6.83e-10,4.13e-05,(2009) Nuclear factor kappaB (NF-kappaB) activation primes cells to a pro-inflammatory polarized response to a Toll-like receptor 7 (TLR7) agonist.
+PMID,PMID:23386852,5,43,9606,"IFNG,IL7,IL7R,BCL11B,ETS1","IFNG,IL7,IL7R,BCL11B,ETS1",7.73e-10,4.62e-05,(2013) Regulation of murine natural killer cell commitment.
+PMID,PMID:34603272,5,44,9606,"IFNG,IRF1,TLR2,TLR10,TLR8","IFNG,IRF1,TLR2,TLR10,TLR8",8.71e-10,5.09e-05,(2021) Recent Insights Into the Molecular Mechanism of Toll-Like Receptor Response to Dengue Virus Infection.
+PMID,PMID:32345319,5,44,9606,"IFNG,TLR2,IL7,TLR8,CYBB","IFNG,TLR2,IL7,TLR8,CYBB",8.71e-10,5.09e-05,(2020) Potential of activated microglia as a source of dysregulated extracellular microRNAs contributing to neurodegeneration in amyotrophic lateral sclerosis.
+PMID,PMID:35215107,5,45,9606,"IFNG,IRF1,IL7,KIF20A,SAMHD1","IFNG,IRF1,IL7,KIF20A,SAMHD1",9.79e-10,5.25e-05,(2022) HIV-1 Accessory Proteins Impart a Modest Interferon Response and Upregulate Cell Cycle-Related Genes in Macrophages.
+PMID,PMID:33720973,5,45,9606,"IFNG,IRF1,TLR2,CYBB,TOP2A","IFNG,IRF1,TLR2,CYBB,TOP2A",9.79e-10,5.25e-05,(2021) Innate immune signatures to a partially-efficacious HIV vaccine predict correlates of HIV-1 infection risk.
+PMID,PMID:34239074,6,104,9606,"IFNG,IL7,IL7R,BCL11B,ETS1,TOP2A","IFNG,IL7,IL7R,BCL11B,ETS1,TOP2A",9.52e-10,5.25e-05,(2021) Delineating spatiotemporal and hierarchical development of human fetal innate lymphoid cells.
+PMID,PMID:30524449,5,45,9606,"IFNG,IRF1,IL7,IL7R,BCL11B","IFNG,IRF1,IL7,IL7R,BCL11B",9.79e-10,5.25e-05,(2018) Chromatin Accessibility and Interactions in the Transcriptional Regulation of T Cells.
+PMID,PMID:28948171,4,14,9606,"IFNG,TLR2,TLR10,TLR8","IFNG,TLR2,TLR10,TLR8",9.49e-10,5.25e-05,(2017) Identification and Characterization of a Splicing Variant in the 5 UTR of the Human TLR5 Gene.
+PMID,PMID:24933117,4,14,9606,"IFNG,TLR2,TLR10,TLR8","IFNG,TLR2,TLR10,TLR8",9.49e-10,5.25e-05,(2014) Functional Toll-like receptors in primary first-trimester trophoblasts.
+PMID,PMID:14530316,4,14,9606,"IFNG,TLR2,TLR10,TLR8","IFNG,TLR2,TLR10,TLR8",9.49e-10,5.25e-05,(2003) Expression and function of Toll-like receptors in eosinophils: activation by Toll-like receptor 7 ligand.
+PMID,PMID:9500799,4,14,9606,"IFNG,IRF1,IL7,IL7R","IFNG,IRF1,IL7,IL7R",9.49e-10,5.25e-05,"(1998) The transcription factor interferon regulatory factor 1 (IRF-1) is important during the maturation of natural killer 1.1+ T cell receptor-alphabeta+ (NK1+ T) cells, natural killer cells, and intestinal intraepithelial T cells."
+PMID,PMID:35868048,3,3,9606,"TTK,KIF20A,TOP2A","TTK,KIF20A,TOP2A",1.04e-09,5.27e-05,"(2022) Identification of chromosomal instability-associated genes as hepatocellular carcinoma progression-related biomarkers to guide clinical diagnosis, prognosis and therapy."
+PMID,PMID:30807593,3,3,9606,"IFNG,IL7,IL7R","IFNG,IL7,IL7R",1.04e-09,5.27e-05,(2019) Correction: Trypanosoma cruzi-specific IFN-gamma-producing cells in chronic Chagas disease associate with a functional IL-7IL-7R axis.
+PMID,PMID:24373795,3,3,9606,"IFNG,TLR2,TLR10","IFNG,TLR2,TLR10",1.04e-09,5.27e-05,"(2014) 1,25-Dihydroxyvitamin D3 up-regulates TLR10 while down-regulating TLR2, 4, and 5 in human monocyte THP-1."
+PMID,PMID:22733744,3,3,9606,"IFNG,IL7,IL7R","IFNG,IL7,IL7R",1.04e-09,5.27e-05,(2012) IL-7 receptor blockade reverses autoimmune diabetes by promoting inhibition of effectormemory T cells.
+RCTM,HSA-168256,11,2105,9606,"IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,CYBB,KIF20A,SAMHD1","IFNG,IRF1,TLR2,IL7,IL7R,TLR10,TLR8,SUZ12,CYBB,KIF20A,SAMHD1",2.57e-06,0.0064,Immune System
+WikiPathways,WP3893,4,33,9606,"IFNG,AHR,IL7,BCL11B","IFNG,AHR,IL7,BCL11B",3.83e-08,3.67e-05,Development and heterogeneity of the ILC family
+WikiPathways,WP3877,3,18,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",8.43e-07,0.00033,MYD88 distinct input output pathway
+WikiPathways,WP4341,4,74,9606,"IFNG,TLR2,TLR8,ETS1","IFNG,TLR2,TLR8,ETS1",1.05e-06,0.00033,Non genomic actions of 1 25 dihydroxyvitamin D3
+WikiPathways,WP2446,4,87,9606,"RRM2,TTK,TOP2A,CCNA2","RRM2,TTK,TOP2A,CCNA2",2.01e-06,0.00048,Retinoblastoma gene in cancer
+WikiPathways,WP619,3,37,9606,"IFNG,IRF1,CYBB","IFNG,IRF1,CYBB",7.93e-06,0.0015,Type II interferon signaling
+WikiPathways,WP5491,3,46,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",1.54e-05,0.0025,Transcriptional regulation of memory B cell differentiation
+WikiPathways,WP5115,4,254,9606,"IFNG,AHR,IL7,RRM2","IFNG,AHR,IL7,RRM2",0.00014,0.0175,Network map of SARS CoV 2 signaling
+WikiPathways,WP5174,2,18,9606,"IFNG,TLR2","IFNG,TLR2",0.00016,0.0175,Ulcerative colitis signaling
+WikiPathways,WP5434,5,504,9606,"IFNG,IL7,IL7R,ETS1,CCNA2","IFNG,IL7,IL7R,ETS1,CCNA2",0.00016,0.0175,Cancer pathways
+WikiPathways,WP205,2,20,9606,"IL7,IL7R","IL7,IL7R",0.0002,0.0195,IL7 signaling
+WikiPathways,WP2865,2,24,9606,"IFNG,TLR2","IFNG,TLR2",0.00029,0.0218,IL1 and megakaryocytes in obesity
+WikiPathways,WP5044,2,24,9606,"IFNG,AHR","IFNG,AHR",0.00029,0.0218,Kynurenine pathway and links to cell senescence
+WikiPathways,WP5485,2,23,9606,"IFNG,TLR8","IFNG,TLR8",0.00027,0.0218,Post COVID neuroinflammation
+WikiPathways,WP530,2,26,9606,"IFNG,IL7","IFNG,IL7",0.00035,0.0238,Cytokines and inflammatory response
+WikiPathways,WP3858,2,31,9606,"TLR2,TLR8","TLR2,TLR8",0.00049,0.0316,Toll like receptor signaling related to MyD88
+WikiPathways,WP5088,2,32,9606,"IFNG,AHR","IFNG,AHR",0.00053,0.0316,Prostaglandin signaling
+WikiPathways,WP4329,2,37,9606,"IRF1,TLR8","IRF1,TLR8",0.0007,0.0376,miRNA role in immune response in sepsis
+WikiPathways,WP5269,2,37,9606,"TLR8,CYBB","TLR8,CYBB",0.0007,0.0376,Genetic causes of porto sinusoidal vascular disease
+WikiPathways,WP5198,2,43,9606,"IFNG,TLR2","IFNG,TLR2",0.00095,0.0481,Inflammatory bowel disease signaling
+HPO,HP:0011123,7,284,9606,"IFNG,IRF1,IL7R,TLR8,BCL11B,CYBB,SAMHD1","IFNG,IRF1,IL7R,TLR8,BCL11B,CYBB,SAMHD1",1.18e-08,7.68e-05,Inflammatory abnormality of the skin
+HPO,HP:0031690,4,29,9606,"IRF1,IL7R,TLR8,CYBB","IRF1,IL7R,TLR8,CYBB",2.23e-08,7.68e-05,Opportunistic infection
+HPO,HP:0005403,4,38,9606,"IRF1,IL7,IL7R,BCL11B","IRF1,IL7,IL7R,BCL11B",6.88e-08,0.00013,Decreased total T cell count
+HPO,HP:0020087,3,10,9606,"IFNG,IRF1,CYBB","IFNG,IRF1,CYBB",1.25e-07,0.00019,BCGosis
+HPO,HP:0001881,7,424,9606,"IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB","IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB",1.83e-07,0.0002,Abnormal leukocyte morphology
+HPO,HP:0040088,5,154,9606,"IRF1,IL7,IL7R,TLR8,BCL11B","IRF1,IL7,IL7R,TLR8,BCL11B",5.03e-07,0.00039,Abnormal lymphocyte count
+HPO,HP:0011893,6,318,9606,"IFNG,IRF1,IL7,IL7R,TLR8,BCL11B","IFNG,IRF1,IL7,IL7R,TLR8,BCL11B",7.47e-07,0.00053,Abnormal leukocyte count
+HPO,HP:0020100,4,71,9606,"IRF1,IL7R,TLR8,CYBB","IRF1,IL7R,TLR8,CYBB",8.85e-07,0.00057,Unusual fungal infection
+HPO,HP:0002716,4,98,9606,"IRF1,IL7R,TLR8,CYBB","IRF1,IL7R,TLR8,CYBB",3.23e-06,0.0017,Lymphadenopathy
+HPO,HP:0032101,7,692,9606,"IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB","IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB",4.84e-06,0.0021,Unusual infection
+HPO,HP:0002240,6,450,9606,"IFNG,IRF1,IL7R,TLR8,CYBB,KIF20A","IFNG,IRF1,IL7R,TLR8,CYBB,KIF20A",5.57e-06,0.0023,Hepatomegaly
+HPO,HP:0004311,3,36,9606,"IFNG,TLR8,CYBB","IFNG,TLR8,CYBB",7.29e-06,0.0028,Abnormal macrophage morphology
+HPO,HP:0010978,8,1149,9606,"IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB,SAMHD1","IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB,SAMHD1",1.34e-05,0.0043,Abnormality of immune system physiology
+HPO,HP:0001744,5,335,9606,"IFNG,IRF1,IL7R,TLR8,CYBB","IFNG,IRF1,IL7R,TLR8,CYBB",2.25e-05,0.0065,Splenomegaly
+HPO,HP:0032260,2,7,9606,"IRF1,CYBB","IRF1,CYBB",2.27e-05,0.0065,Opportunistic bacterial infection
+HPO,HP:0031396,2,8,9606,"IRF1,BCL11B","IRF1,BCL11B",3.02e-05,0.0081,Abnormal naive T cell proportion
+HPO,HP:0000988,3,59,9606,"IFNG,IRF1,CYBB","IFNG,IRF1,CYBB",3.27e-05,0.0084,Skin rash
+HPO,HP:0002841,3,62,9606,"IL7R,TLR8,CYBB","IL7R,TLR8,CYBB",3.79e-05,0.0094,Recurrent fungal infections
+HPO,HP:0011274,2,9,9606,"IRF1,CYBB","IRF1,CYBB",3.88e-05,0.0094,Recurrent mycobacterial infections
+HPO,HP:0000951,9,1802,9606,"IFNG,IRF1,IL7,IL7R,TLR8,SUZ12,BCL11B,CYBB,SAMHD1","IFNG,IRF1,IL7,IL7R,TLR8,SUZ12,BCL11B,CYBB,SAMHD1",4.66e-05,0.0103,Abnormality of the skin
+HPO,HP:0001581,3,75,9606,"IL7R,TLR8,CYBB","IL7R,TLR8,CYBB",6.71e-05,0.0137,Recurrent skin infections
+HPO,HP:0001871,8,1465,9606,"IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB,SAMHD1","IFNG,IRF1,IL7,IL7R,TLR8,BCL11B,CYBB,SAMHD1",7.76e-05,0.0154,Abnormality of blood and blood-forming tissues
+HPO,HP:0010974,4,221,9606,"IFNG,TLR8,BCL11B,CYBB","IFNG,TLR8,BCL11B,CYBB",7.94e-05,0.0154,Abnormal myeloid leukocyte morphology
+HPO,HP:0002840,2,13,9606,"IRF1,CYBB","IRF1,CYBB",8.38e-05,0.0157,Lymphadenitis
+HPO,HP:0004430,2,14,9606,"IL7R,BCL11B","IL7R,BCL11B",9.77e-05,0.0172,Severe combined immunodeficiency
+HPO,HP:0020086,2,14,9606,"IFNG,IRF1","IFNG,IRF1",9.77e-05,0.0172,BCGitis
+HPO,HP:0002597,8,1570,9606,"IFNG,AHR,IRF1,IL7R,TLR8,BCL11B,CYBB,KIF20A","IFNG,AHR,IRF1,IL7R,TLR8,BCL11B,CYBB,KIF20A",0.00013,0.0213,Abnormality of the vasculature
+HPO,HP:0032255,2,19,9606,"IRF1,TLR8","IRF1,TLR8",0.00018,0.0302,Opportunistic fungal infection
+HPO,HP:0012156,2,22,9606,"IFNG,TLR8","IFNG,TLR8",0.00025,0.039,Hemophagocytosis
+HPO,HP:0002721,3,125,9606,"IL7R,BCL11B,CYBB","IL7R,BCL11B,CYBB",0.00031,0.0473,Immunodeficiency
+GWAS,OBA:2044226,3,30,9606,"IRF1,IL7,IL7R","IRF1,IL7,IL7R",4.16e-06,0.0457,Level of killer cell lectin-like receptor subfamily B member 1 in blood serum
+Hallmark,M5932,5,198,9606,"AHR,IRF1,TLR2,IL7R,CYBB","AHR,IRF1,TLR2,IL7R,CYBB",1.74e-06,8.71e-05,Inflammatory response
+Hallmark,M5950,4,200,9606,"IFNG,TLR2,IL7,ETS1","IFNG,TLR2,IL7,ETS1",5.39e-05,0.0013,Allograft rejection
+Hallmark,M5897,3,87,9606,"IRF1,TLR2,IL7","IRF1,TLR2,IL7",0.0001,0.0017,IL6 JAK STAT3 signaling
+Hallmark,M5890,3,199,9606,"IRF1,TLR2,IL7R","IRF1,TLR2,IL7R",0.0012,0.0086,TNFA signaling via NFKB
+Hallmark,M5901,3,197,9606,"TTK,TOP2A,CCNA2","TTK,TOP2A,CCNA2",0.0011,0.0086,G2M checkpoint
+Hallmark,M5913,3,200,9606,"IRF1,IL7,SAMHD1","IRF1,IL7,SAMHD1",0.0012,0.0086,Interferon GAMMA response
+Hallmark,M5953,3,200,9606,"IL7R,TLR8,ETS1","IL7R,TLR8,ETS1",0.0012,0.0086,KRAS signaling UP
+Hallmark,M5911,2,97,9606,"IRF1,IL7","IRF1,IL7",0.0047,0.0296,Interferon ALPHA response
+NetworkNeighborAL,CL:12931,4,68,9606,"IFNG,IRF1,IL7,IL7R","IFNG,IRF1,IL7,IL7R",7.43e-07,0.0034,"Interferon mediated signaling, and Interleukin-2 family signaling"
+NetworkNeighborAL,CL:13935,3,34,9606,"TLR2,TLR10,TLR8","TLR2,TLR10,TLR8",6.12e-06,0.007,"Toll like receptor signaling related to MyD88, and Caspase recruitment domain"

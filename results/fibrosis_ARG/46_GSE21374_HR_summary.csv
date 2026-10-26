@@ -1,0 +1,2 @@
+﻿cohort,n,events,HR_per_SD,HR_lo,HR_hi,p,logrank_chi2,logrank_p
+GSE21374 late-first-biopsy,105,30,1.572,1.193,2.072,0.00133,14.802,0.000119
